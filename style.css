@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+      /* Header */
+header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.icon{
+display: flex;
+width: 120px;
+justify-content: space-between;
+
+
+}
+.icn{
+    color: aliceblue;
+    transition: .5s;
+
+}
+.icn:hover{
+    color: #E5BF4A;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+header button{
+    background-color: transparent;
+    color: #E5BF4A;
+    border: 2px solid #E5BF4A;
+    font-size: 16px;
+    padding: 11px 20px;
+    transition: .5s;
+
+}
+button:hover{
+    background-color: #E5BF4A;
+    color: black;
+}
+/* navbar */
+nav{
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+nav a{
+    font-family: "Jost",sans-serif;
+    margin: 20px;text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    transition: .5s;
+
+}
+a:hover{
+    color: #E5BF4A;
+    padding:15px ;
+    border-bottom:2px solid #E5BF4A;
+}
+/* HeroSection */
+.hero{
+    background-image: url(WhatsApp\ Image\ 2023-09-27\ at\ 2.35.44\ AM.jpeg);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.msg p{
+    color: aliceblue;
+    font-family: "Poiret One",cursive;
+    font-size:3rem ;
+    
+}
+
+.msg{
+    margin: 41px;
+}
+.hero button{
+    background-color: #E5BF4A;
+    height: 60px;
+    width: 172px;
+    transition: .5s;
+
+}
+.hero button:hover{
+    color: #E5BF4A;
+    background-color: black;
+    border: 2px solid #E5BF4A;
+    transition:ease-in 0.25s
+}
+.heading{
+    display: flex;
+    text-align: center;
+    align-items:center ;
+    height: 50vh;
+    color: aliceblue;
+    font-family: "Poiret One",cursive;
+    justify-content: space-evenly;
+    font-weight:400;
+
+
+}
+
+.border{
+    border-bottom: 2px solid #E5BF4A;
+    margin: 0px 190px 90px 190px   ;
+
+}
+.two{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.lorem {
+    font-family: "Poiret One",cursive;
+    font-weight: 15px;
+    width: 50%;
+    color: aliceblue;
+
+}
+.yellow p{
+    color: rgb(229, 191, 74);
+    text-align: start;
+    font-size: 23px;
+
+}
+.ipsum{
+    color: aliceblue;
+    text-align: start;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.slider{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(1,300px);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+.item1{
+    background-image: url(items1.jpg.webp);
+    background-size: cover;
+    height: 41vh;
+    width: 41vh;
+background-position: center;
+}
+.item2{
+    background-image: url(items2.jpg.webp);
+    background-size: cover;
+    height: 41vh;
+    width: 41vh;
+/* height: 249px;
+width: 249px; */
+background-position: center;
+}
+.item3{
+    background-image: url(items3.jpg.webp);
+    background-size: cover;
+    height: 41vh;
+    width: 41vh;
+background-position: center;
+}
+
+.box p{
+    color: aliceblue;
+}
+
+.videobg{
+    margin-top: 20%;
+    height: 80vh;
+    width: 90vw;
+    background-image: url(video-bg.jpg.webp);
+    background-size: cover;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.videobg a{
+    color:rgb(229, 191, 74) ;
+    border: none;
+    font-size: 7em;
+
+}
+.play{
+    border: 2px solid #E5BF4A;
+    padding: 14px;
+}
+.fa-star{
+    color: gold;
+}
+.rating{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(1,300px);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    gap: 0px;
+
+}
+.square{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 1px solid gray;
+height: 61vh;
+min-width: 31vw;
+}
+.square1{
+    border-right: none;
+}
+.square2{
+    border-right: none;
+
+}
+.square p{
+    color: aliceblue;
+}
+.profile{
+    color: aliceblue;
+}
+/* Blogs */
+.blogs{
+    height: 180px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.3rem;
+}
+.blogs button{
+    background-color: #E5BF4A;
+    height: 60px;
+    width: 166px;
+    transition: .5s;
+
+}
+.blogs button:hover{
+    background-color: black;
+    border: 2px solid #E5BF4A;
+color: #E5BF4A;
+}
+.blogs p{
+    color: aliceblue;
+    font-family: "Poiret One",cursive;
+}
+h1{
+color: aliceblue;
+text-align: center;
+margin-top: 70px;
+font-family: "Poiret One",cursive;
+font-weight: 100;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,300px);
+}
+.blog1{
+background-image: url(blog1.jpg.webp);
+}
+.blog a{
+    color:  #E5BF4A;
+    text-decoration: none;
+border-bottom: 2px solid #E5BF4A;
+width: 110px;
+padding-bottom: 10px;
+}
+.random{
+    color: aliceblue;
+}
+.blog1-txt{
+    padding: 20px;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.blog2{
+background-image: url(blog2.jpg.webp);
+}
+.insta{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+height: 270px;
+}
+.insta h2{
+    color: aliceblue;
+    font-size:30px ;
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+}
+.insta button{
+    background-color: black;
+    color: #E5BF4A;
+    border: 2px solid #E5BF4A;
+    height: 60px;
+    width: 166px;
+    transition: .5s;
+transition: letter-spacing 0.5s;
+
+}
+
+.insta button:hover{
+
+letter-spacing: 0.075em;
+    
+}
+
+
+.four{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(1,200px);
+    gap: 20px;
+     /* justify-content: space-evenly; */
+     /* justify-items: center;  */
+    align-content: space-evenly;
+    margin-left: 8%;
+} 
+.instra1{
+background-image: url(instra1.jpg.webp);
+background-size: cover;
+}
+.instra2{
+    background-image: url(instra2.jpg.webp);
+    background-size: cover;
+
+}
+.instra3{
+    background-image: url(instra3.jpg.webp);
+    background-size: cover;
+
+}
+.instra4{
+    background-image: url(instra4.jpg.webp);
+    background-size: cover;
+
+}
+.repeat{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 359px;
+    padding: 50px;
+}
+.anchor a{
+    color: aliceblue;
+    font-family: "Jost",sans-serif;
+    margin: 20px;text-transform: uppercase;
+    text-decoration: none;
+}
+.link{
+    font-size: 18px;
+    color: aliceblue;
+    width: 46%;
+}
+.location{
+    display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: space-evenly; */
+    width: 22%;
+    color: aliceblue;
+    text-align: start;
+
+}
+.contact{
+    width: 22%;
+}
+.button button{
+    border: 1.5px solid white;
+    color: aliceblue;
+    background-color: transparent;
+    height: 40px;
+    width: 142px;
+    transition: letter-spacing 0.5s;
+}
+.button button:hover{
+letter-spacing: 0.075em;
+}
+.contact{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: start;
+/* justify-content: space-evenly; */
+    color: aliceblue;
+}
+.copy{
+    display:flex ;
+    align-items: center;
+    color: aliceblue;
+justify-content: center;
+    height: 70px;
+}
+
+
+.insta_icn{
+    color: #E5BF4A;
+}
+
+.insta_icn:hover {
+
+}
